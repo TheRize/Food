@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+    background-color: #f9f9f9; /* Set your desired background color */
+    background-image: url('foodweb.jpg'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* Home Section Styles */
+#home {
+  background-image: url('background.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+  height: 50vh;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Menu Section Styles */
+.menu-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-content .btn {
+  display: inline-block;
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #fff;
+  padding: 50px;
+}
+
+#about h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about p {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+#contact h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.logo img {
+  height: 40px;
+}
+.gap-text{
+  height: 5vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

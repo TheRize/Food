@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Online Food Shop Logo">
+          </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html" onclick="changePage(event, 'about')">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to our Online Food Shop</h1>
+      <p>Order delicious food from the comfort of your home!</p>
+      <!-- <a href="#menu" class="btn" id="orderBtn">Order Now</a> -->
+    </div>
+  </section>
+<section class="gap-text">
+<div>
+    <h1>
+        FOOD menu 
+    </h1>
+</div>
+</section>
+  <section id="menu">
+    <div class="container">
+      <div class="menu-item">
+        <div class="card">
+          <img src="food1.jpg" alt="Food Item 1">
+          <div class="card-content">
+            <h3>Chinese traditional food dumpling</h3>
+            <p>Stuffed parcels made of unleavened dough and savoury fillings consisting of minced ingredients like meat, egg, tofu, or vegetables</p>
+            <a href="#" class="btn">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="card">
+          <img src="food2.jpg" alt="Food Item 2">
+          <div class="card-content">
+            <h3>Dinner</h3>
+            <p>Soup</p>
+            <a href="#" class="btn">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more menu items here -->
+    </div>
+  </section>
+  
+
+  <main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Online Food Shop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
